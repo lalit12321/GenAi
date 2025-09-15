@@ -11,20 +11,20 @@ class Vehicle(ABC):
         self.__registration_number = registration_number
 
     
-    def get_brand(self): 
-        return self.__brand
-    def get_model(self):
-        return self.__model
-    def get_year(self): 
-        return self.__year
-    def get_color(self): 
-        return self.__color
-    def get_price(self): 
-        return self.__price
-    def get_fuel_type(self): 
-        return self.__fuel_type
-    def get_registration_number(self): 
-        return self.__registration_number
+    # def get_brand(self): 
+    #     return self.__brand
+    # def get_model(self):
+    #     return self.__model
+    # def get_year(self): 
+    #     return self.__year
+    # def get_color(self): 
+    #     return self.__color
+    # def get_price(self): 
+    #     return self.__price
+    # def get_fuel_type(self): 
+    #     return self.__fuel_type
+    # def get_registration_number(self): 
+    #     return self.__registration_number
 
 
     @abstractmethod

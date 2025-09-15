@@ -1,0 +1,10 @@
+import mysql.connector as ms
+con = ms.connect(user="root", password="", host="localhost", database="acro")
+rno = int(input("Enter roll:"))
+name = input("Enter name:")
+marks = int(input("Enter marks:"))
+cr = con.cursor()
+sql = "insert into student values({0},'{1}',{2})".format(rno, name, marks)
+cr.execute(sql)
+con.commit()
+print("hello........")
